@@ -5,9 +5,11 @@
   <meta charset="UTF-8"/>
 </head>
 <body>
+  
   <script>
     function computerPlay(){
         let selection = ['rock', 'paper', 'scissors'];
+        console.log(selection.length);
         let random = Math.floor(Math.random() * selection.length);
         return selection[random];
       }
